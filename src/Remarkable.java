@@ -8,7 +8,9 @@ public class Remarkable {
 		if (name.equalsIgnoreCase("julia")) {
 			JOptionPane.showMessageDialog(null, "Hi " + name + ". You're remarkable because you're going to NASA.");
 		} else if (name.equalsIgnoreCase("ronald")) {
-			JOptionPane.showMessageDialog(null, "Hi "+ name + "You're remarkable because you're the youngest stundent in the league  .");
+			JOptionPane.showMessageDialog(null, "Hi "+ name + ". You're remarkable because you're the youngest stundent in the league  .");
+		} else {
+			JOptionPane.showMessageDialog(null, "Hi "+ name + ". You're not in this class but you're still r .");
 		}
 	}
 
