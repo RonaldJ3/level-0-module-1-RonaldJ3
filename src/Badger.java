@@ -9,10 +9,74 @@ public class Badger {
 			System.out.print(name);
 		}
 		System.out.println();
-		for(int i=1;i < 3; i= i+ 1 ) {
-			System.out.print(fun a);
+		for(int i=1;i < 3; i= i+1 ) {
+			System.out.print(fun);
+			System.out.print(fun.toLowerCase());
+				System.out.print("a");
+			for(int j=1;i < 11; i= i+ 1 ) {
+				System.out.println();
+			for(int k=1;i < 11; i= i+ 1 ) 
+				System.out.print(name);
+		}for(int j=1;i < 11; i= i+ 1 ) {
+			System.out.print(name);
+			for(int k=1;i < 11; i= i+ 1 );
 		}
-
 		}
+	}	}
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
