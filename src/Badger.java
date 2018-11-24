@@ -3,7 +3,7 @@ public class Badger {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String name = "badger, ";
+		String name = "Badger ";
 		String fun = "Mushroom , ";
 		String boop = "Snake ,";
 		for (int i = 1; i < 11; i = i + 1) {
@@ -17,8 +17,8 @@ public class Badger {
 				System.out.print("a");
 				for (int j = 1; i < 11; i = i + 1) {
 					System.out.println();
-					for (int k = 1; i < 11; i = i + 1){
-						System.out.print(name);
+					for (int k = 1; i < 11; i = i + 1) {
+						System.out.print(name.toLowerCase());
 					}
 				}
 			}
@@ -28,10 +28,15 @@ public class Badger {
 		for (int i = 1; i < 2; i = i + 1) {
 			System.out.print(fun.toLowerCase());
 			System.out.println("a");
-		for (int k = 1; i < 11; i = i + 1){
-			System.out.println(name);
+			for (int k = 1; i < 11; i = i + 1) {
+				System.out.print(name);
+			}
+			System.out.println();
+			System.out.print("A ");
+			System.out.print(boop.toLowerCase());
+			System.out.print(" a ");
 			System.out.println(boop.toLowerCase());
+			System.out.print(boop);
+		}
 	}
-}
-}
 }
